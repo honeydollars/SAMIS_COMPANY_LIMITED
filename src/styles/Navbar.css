@@ -1,0 +1,136 @@
+.main-navbar{
+    width:100%;
+}
+
+.top-navbar{
+    width:100%;
+    margin:auto;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.top-navbar-content{
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    cursor:pointer;
+}
+
+.leftside-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-left-info{
+    padding: 5px;
+    border-right: 1px solid #d3d3d3;
+}
+
+.span-left-info span, .span-right-info span{
+    margin-left: 10px;
+}
+
+.span-right-info{
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.rightside-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-icons div{
+    margin: 10px;
+    padding:5px;
+}
+
+.span-left-info:hover, .span-right-info:hover, .social-media-icons div:hover{
+    color:#ff4500;
+}
+
+.container{
+    padding: 20px 0;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color:#ff4500;
+}
+
+.quote-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #ff4500;
+    color:#ffff;
+    border: 1px solid orange;
+    margin:5px 10px;
+}
+
+.quote-btn:hover{
+    background-color:#ffff;
+    color:#000000;
+}
+
+@media screen and (max-width:360px) {
+    .top-navbar{
+        display: none;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .top-navbar{
+        display: none;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .top-navbar{
+        display: none;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .top-navbar{
+        display: none;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .top-navbar{
+        display: none;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+}
