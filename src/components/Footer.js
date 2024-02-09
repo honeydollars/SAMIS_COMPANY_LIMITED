@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Footer.css';
+import SamisLogo from '../assets/company_logo.png';
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="footer-info">
                     <div className="footer-info-top">
-                        <img src="/assets/logo-color.png" alt="Samis_logo"/>
+                        <img src={SamisLogo} alt="Samis_logo"/>
                         <p>We develop software to aid schools in managing thir academics and financial DTE easily and more efficiently</p>
                     </div>
                     <div className="footer-social-media-icons">

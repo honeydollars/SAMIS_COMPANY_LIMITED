@@ -39,6 +39,7 @@
 .carousel-caption h2{
     text-transform: uppercase;
     font-size: 2.5rem;
+    font-weight: 600;
     z-index:1000;
 }
 

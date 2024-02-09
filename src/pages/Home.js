@@ -28,11 +28,9 @@ const Home = () => {
                         <img src={Photo1} className="d-block w-100" alt="carousel1"/>
                         <div className="carousel-info">
                             <div className="carousel-caption d-none d-md-block">
-                                <p>#SAMIS SYSTEMS</p>
                             <h2>We Develop Software to aid schools in managing their academics
                                 and financial dte easily and more efficiently
                             </h2>
-                            <p>Some representative placeholder content for the first slide.</p>
                             </div>
                         </div>
                     </div>
@@ -40,8 +38,9 @@ const Home = () => {
                         <img src={Photo2} className="d-block w-100" alt="carousel2"/>
                         <div className="carousel-info">
                             <div className="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <h2>Working closely with teachers and bursars since 2013. 
+                                Providing the best integrated School management system in Kenya
+                            </h2>
                             </div>
                         </div>
                     </div>
@@ -49,8 +48,7 @@ const Home = () => {
                         <img src={Photo3} className="d-block w-100" alt="carousel3"/>
                         <div className="carousel-info">
                             <div className="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <h2>A Great Story Starts with a Friendly Team</h2>
                             </div>
                         </div>
                     </div>
