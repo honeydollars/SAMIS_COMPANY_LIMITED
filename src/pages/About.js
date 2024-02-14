@@ -45,8 +45,12 @@ const About = () => {
             <h3>Our Core Values</h3>
             <div className='values-info'>
               <div className='value-info'>
-                <span><i className='fa fa-thumbs-up fa-2x' aria-hidden='true'></i></span>
-                <div>
+                <div className='value-info-top'>
+                  <span><i className='fa fa-thumbs-up fa-2x' aria-hidden='true'></i></span>
+                  <span><p>01</p></span>
+                </div>
+                <div><hr/></div>
+                <div className='value-info-bottom'>
                   <h4>Client is king</h4>
                   <p>
                     To be the leading Software solution company for schools and other organizations. 
@@ -56,8 +60,12 @@ const About = () => {
                 </div>
               </div>
               <div className='value-info'>
-                <span><i className='fa fa-check-square-o fa-2x' aria-hidden='true'></i></span>
-                <div>
+              <div className='value-info-top'>
+                  <span><i className='fa fa-check-square-o fa-2x' aria-hidden='true'></i></span>
+                  <span><p>02</p></span>
+                </div>
+                <div><hr/></div>
+                <div className='value-info-bottom'>
                   <h4>Adaptability & Unique</h4>
                   <p>
                     To help schools and other institutions with management by providing dynamic,
@@ -66,8 +74,12 @@ const About = () => {
                 </div>
               </div>
               <div className='value-info'>
-                <span><i className='fa fa-cogs fa-2x' aria-hidden='true'></i></span>
-                <div>
+              <div className='value-info-top'>
+                  <span><i className='fa fa-cogs fa-2x' aria-hidden='true'></i></span>
+                  <span><p>03</p></span>
+                </div>
+                <div><hr/></div>
+                <div className='value-info-bottom'>
                   <h4>Efficiency & Accountability</h4>
                   <p>
                     We are only servants and as so we must adhere to very strict rules 
