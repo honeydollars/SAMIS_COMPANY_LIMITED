@@ -117,6 +117,48 @@
    margin-bottom: 30px;
  }
 
+ @media screen and (max-width:1200px) {
+   .contact-info-container{
+      width: 100%;
+      display: block;
+   }
+
+   .contact-info, .contact-form{
+      width:95%;
+      margin:50px auto;
+   }
+
+   form div input{
+      display:flex;
+      flex-wrap: wrap;
+   }
+
+   input, textarea{
+      width:500px;
+   }
+ }
+
+ @media screen and (max-width:992px) {
+   .contact-info-container{
+      width: 100%;
+      display: block;
+   }
+
+   .contact-info, .contact-form{
+      width:95%;
+      margin:50px auto;
+   }
+
+   form div input{
+      display:flex;
+      flex-wrap: wrap;
+   }
+
+   input, textarea{
+      width:500px;
+   }
+ }
+
  @media screen and (max-width:768px) {
    .contact-info-container{
       width: 100%;

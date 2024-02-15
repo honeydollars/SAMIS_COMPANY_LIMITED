@@ -73,7 +73,7 @@ h6{
     width:70%;
     margin:auto;
     display:flex;
-    justify-content: space-between;
+    align-items: center;
  }
 
  .about-info-container div{
@@ -125,6 +125,7 @@ h6{
 .value-info{
     width:400px;
     padding: 30px;
+    margin-bottom: 30px;
     border:1px outset #d3d3d3;
     border-radius: 8px;
     background-color: white;
@@ -187,10 +188,137 @@ h6{
     color:#ff4500;
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:1200px) {
+    .about-info-container{
+        width: 70%;
+        display:block;
+    }
+
+    .about-info-container img{
+        width:100%;
+    }
+
+    .values-container{
+        width:70%;
+        padding-bottom:0;
+    }
+
+    .values-info{
+        margin: 20px;
+        display:flex;
+    }
+
+    .value-info{
+        width:300px;
+        margin-bottom:20px;
+    }
+
+    .values-container h3{
+        text-align: center;
+    }
+
+    .our-story-container{
+        width:70%;
+    }
+
+    .our-story:hover{
+        color:#000000;
+    }
+}
+
+@media screen and (max-width:992px) {
     .about-info-container{
         width: 100%;
-        display: block;
+        display:block;
+    }
+
+    .about-info-container img{
+        width:100%;
+    }
+
+    .values-container{
+        width:100%;
+        padding-bottom:0;
+    }
+
+    .values-info{
+        margin: 20px;
+        display:flex;
+    }
+
+    .value-info{
+        width:350px;
+        margin-bottom:20px;
+    }
+
+    .values-container h3{
+        text-align: center;
+    }
+
+    .our-story-container{
+        width:100%;
+    }
+
+    .our-story-info{
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow:none;
+    }
+
+    .our-story{
+        width: 300px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #d3d3d3;
+        margin:20px 10px;
+        padding: 30px;
+        border-radius:8px; 
+    }
+
+    .our-story:hover{
+        color:#000000;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about-info-container{
+        width: 100%;
+        display:block;
+    }
+
+    .about-info-container img{
+        width:100%;
+    }
+
+    .values-container{
+        width:100%;
+        padding-bottom:0;
+    }
+
+    .values-info{
+        margin: 20px;
+        display:flex;
+    }
+
+    .value-info{
+        width:350px;
+        margin-bottom:20px;
+    }
+
+    .values-container h3{
+        text-align: center;
+    }
+
+    .our-story-container{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:578px) {
+    .about-info-container{
+        width: 100%;
+        display:block;
     }
 
     .about-info-container img{
@@ -225,7 +353,60 @@ h6{
 
     .our-story{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #d3d3d3;
+        margin-bottom: 20px;
+        padding: 30px;
+        border-radius:8px; 
+    }
+
+    .our-story:hover{
+        color:#000000;
+    }
+}
+
+@media screen and (max-width:390px) {
+    .about-info-container{
+        width: 100%;
+        display: block;
+    }
+
+    .about-info-container img{
+        width:100%;
+    }
+
+    .values-container{
+        width:100%;
+        padding-bottom:0;
+    }
+
+    .values-info{
+        margin: 20px;
+    }
+
+    .value-info{
+        margin: 20px 0;
+    }
+
+    .values-container h3{
+        text-align: center;
+    }
+
+    .our-story-container{
+        width:100%;
+    }
+
+    .our-story-info{
+        display: flex;
+        justify-content: center;
+        box-shadow:none;
+    }
+
+    .our-story{
+        display:flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         border: 1px solid #d3d3d3;
@@ -270,13 +451,14 @@ h6{
     }
 
     .our-story-info{
-        display: block;
+        display: flex;
+        justify-content: center;
         box-shadow:none;
     }
 
     .our-story{
         display:flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         border: 1px solid #d3d3d3;
