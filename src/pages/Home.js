@@ -14,7 +14,7 @@ import Testimony7 from '../assets/attachments/7.png';
 import Testimony8 from '../assets/attachments/8.png';   
 
 const Home = () => {
-  return (
+  return (    
     <div className="homepage-container">
         <div className="carousel-section">
             <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">

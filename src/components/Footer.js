@@ -11,8 +11,7 @@ const Footer = () => {
                     <div className="footer-info-top">
                         <img src={SamisLogo} alt="Samis_logo"/>
                         <p>We develop software to aid schools in managing thir academics and financial DTE easily and more efficiently</p>
-                    </div>
-                    <div className="footer-social-media-icons">
+                        <div className="footer-social-media-icons">
                         <div>
                             <i className="fa fa-facebook" aria-hidden="true"></i>
                         </div>
@@ -25,6 +24,7 @@ const Footer = () => {
                         <div>
                             <i className="fa fa-twitter" aria-hidden="true"></i>
                         </div>
+                    </div>
                     </div>
                 </div>
                 <div className="footer-info">
@@ -48,14 +48,14 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
-        <div className="copyright-section">
-            <div className="copyright-container">
-                <div className="copyright-info">
-                    <p>&copy; <span id="date"></span> SAMIS Software Limited. Rights Reserved.</p>
-                </div>
+    </div>
+    <div className="copyright-section">
+        <div className="copyright-container">
+            <div className="copyright-info">
+                <p>&copy; <span id="date"></span> SAMIS Software Limited. Rights Reserved.</p>
             </div>
-        </div>
+        </div>   
+    </div>
     </>
   )
 }

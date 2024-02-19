@@ -7,7 +7,6 @@
     width:70%;
     margin:auto;
     display:flex;
-    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -16,14 +15,8 @@
     color: #ffff;
     display: block;
     margin: 50px auto;
-    width: 400px;
+    width: 300px;
 
-}
-
-footer-info-top img{
-    display:block;
-    width:250px;
-    border-radius: 8px;
 }
 
 .footer-info-top img, .footer-info-top p{
@@ -31,7 +24,7 @@ footer-info-top img{
 }
 
 .footer-social-media-icons{
-    width: 200px;
+    width: 150px;
     display:flex;
     justify-content: space-between;
     align-items:center;

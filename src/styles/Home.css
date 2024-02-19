@@ -430,11 +430,12 @@ h4{
     }
 
     .benefits-info{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .benefits-info div{
-        width: 350px;  
+        width: 400px;  
         margin: 10px auto;
         padding: 10px auto;
     }
@@ -465,16 +466,17 @@ h4{
     }
 
     .about-us-image img{
-        width:300px;
+        width:600px;
         margin:0 auto;
     }
 
     .about-us-info{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .about-us-info div{
-        width:350px;
+        width:400px;
         margin: 10px auto;
     }
 
@@ -495,7 +497,7 @@ h4{
     }
 
     .services-info-1{
-        width:350px;
+        width:400px;
         margin: 10px auto;
     }
 
@@ -508,8 +510,12 @@ h4{
         width:100%;
     }
 
+    .testimony-container{
+        width:90%;
+    }
+
     .testimony{
-        width:350px;
+        width:400px;
         margin:10px auto;
     }
 
@@ -560,6 +566,191 @@ h4{
     }
 }
 
+@media screen and (max-width:992px){
+    .top-navbar{
+        display:none;
+    }
+
+    .benefits-container{
+        width:90%;
+    }
+
+    .benefits-info{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-container{
+        width:90%;
+    }
+
+    .about-us-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-image img{
+        width:100%;
+    }
+
+    .services-container{
+        width:90%;
+    }
+
+    .services-info{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .services-info-1{
+        width:330px;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+
+    .testimony-container{
+        width:90%;
+    }
+
+    .testimony-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimony{
+        width:330px;
+    }
+
+    .testimony:hover{
+        box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.35);
+    }
+
+    .testimony-top img:hover{
+        zoom:0;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.45);
+    }
+
+    .top-contact-container{
+        width:100%;
+    }  
+
+    .top-contact-info{
+        width:100%;
+        display:none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .top-contact-card{
+        padding: 30px 20px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-items: center;
+        border:1px solid #d3d3d3;
+        box-shadow:1px 1px #000000;
+        border-radius:8px;
+    }
+
+    .top-contact-card:hover{
+        color: rgba(0, 0, 0, .8);
+    }
+}
+
+@media screen and (max-width:768px){
+    .top-navbar{
+        display:none;
+    }
+
+    .benefits-container{
+        width:90%;
+    }
+
+    .benefits-info{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-container{
+        width:90%;
+    }
+
+    .about-us-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-us-image img{
+        width:100%;
+    }
+
+    .services-container{
+        width:90%;
+    }
+
+    .services-info{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .services-info-1{
+        width:330px;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+
+    .testimony-container{
+        width:90%;
+    }
+
+    .testimony-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimony{
+        width:330px;
+    }
+
+    .testimony:hover{
+        box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.35);
+    }
+
+    .testimony-top img:hover{
+        zoom:0;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.45);
+    }
+
+    .top-contact-container{
+        width:100%;
+    }  
+
+    .top-contact-info{
+        width:100%;
+        display:none;
+        justify-content: space-around;
+    }
+
+    .top-contact-card{
+        padding: 30px 20px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content:flex-start;
+        align-items: center;
+        border:1px solid #d3d3d3;
+        box-shadow:1px 1px #000000;
+        border-radius:8px;
+    }
+
+    .top-contact-card:hover{
+        color: rgba(0, 0, 0, .8);
+    }
+}
+
 @media screen and (max-width:578px){
     .carousel-item{
         height:auto;
@@ -569,12 +760,9 @@ h4{
         display:none;
     }
 
-    .benefits-section{
-        background-color: rgba(0, 0, 0, .95);
-    }
-
-    .benefits-info div{
-        width:390px;
+    .benefits-info{
+        width:100%;
+        display: block;
     }
 
     .benefits-card-section{
@@ -622,7 +810,7 @@ h4{
     .top-contact-info{
         width:100%;
         display:flex;
-        position: relative;
+        justify-content: center;
     }
 
     .top-contact-card{
@@ -672,10 +860,6 @@ h4{
 
     .top-navbar{
         display:none;
-    }
-
-    .benefits-section{
-        background-color: rgba(0, 0, 0, .95);
     }
 
     .benefits-info div{
