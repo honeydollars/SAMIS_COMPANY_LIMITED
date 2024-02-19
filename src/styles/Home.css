@@ -869,10 +869,6 @@ h4{
         color: rgba(0, 0, 0, .8);
     }
 
-    .footer-section{
-        background-color: rgba(0, 0, 0, .95);
-    }
-
     .footer-info{
         width:390px;
     }
@@ -970,22 +966,8 @@ h4{
         color: rgba(0, 0, 0, .8);
     }
 
-    .footer-section{
-        background-color: rgba(0, 0, 0, .95);
-    }
-
     .footer-info{
         width:350px;
-    }
-
-    .footer-social-media-icons div:hover{
-        background-color: #000000;
-        color: #ffff;
-        border:1px solid #ffff;
-    }
-
-    .footer-website-links li:hover{
-        color:#ffff;
     }
 
     .copyright-info{
@@ -1061,22 +1043,8 @@ h4{
         color: rgba(0, 0, 0, .8);
     }
 
-    .footer-section{
-        background-color: rgba(0, 0, 0, .95);
-    }
-
     .footer-info{
         width:320px;
-    }
-
-    .footer-social-media-icons div:hover{
-        background-color: #000000;
-        color: #ffff;
-        border:1px solid #ffff;
-    }
-
-    .footer-website-links li:hover{
-        color:#ffff;
     }
 
     .copyright-info{

@@ -6,25 +6,26 @@ const Footer = () => {
   return (
     <>
     <div className="footer-section">
-            <div className="footer-container">
+        <div className="footer-container">
+            <div className="footer-content">
                 <div className="footer-info">
                     <div className="footer-info-top">
                         <img src={SamisLogo} alt="Samis_logo"/>
-                        <p>We develop software to aid schools in managing thir academics and financial DTE easily and more efficiently</p>
+                        <p>We develop software to aid schools in managing their academics and financial DTE easily and more efficiently</p>
                         <div className="footer-social-media-icons">
-                        <div>
-                            <i className="fa fa-facebook" aria-hidden="true"></i>
+                            <div>
+                                <i className="fa fa-facebook" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i className="fa fa-github" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i className="fa fa-instagram" aria-hidden="true"></i>
+                            </div>
+                            <div>
+                                <i className="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
                         </div>
-                        <div>
-                            <i className="fa fa-github" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <i className="fa fa-instagram" aria-hidden="true"></i>
-                        </div>
-                        <div>
-                            <i className="fa fa-twitter" aria-hidden="true"></i>
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <div className="footer-info">
@@ -46,8 +47,9 @@ const Footer = () => {
                         <li>About</li>
                         <li>Contact Us</li>
                     </div>
-                </div>
-            </div>
+                </div> 
+            </div>  
+        </div>
     </div>
     <div className="copyright-section">
         <div className="copyright-container">
