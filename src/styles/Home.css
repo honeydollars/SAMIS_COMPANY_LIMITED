@@ -145,48 +145,26 @@ h4{
     padding:100px 0;
 }
 
-.about-us-section h2{
-    text-align: center;
-    font-weight: 600;
-    padding: 100px 0;
-}
-
-.about-us-image{
-    padding: 30px 0;
-}
-
-.about-us-image img{
-    border-radius: 8px;
-}
-
 .about-us-container{
     width:70%;
     margin:auto;
     padding: 100px 0;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.about-us-container h2{
+.about-us-section h2{
     font-weight: 600;
     text-align: center;
     margin-bottom:30px;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
-.about-us-info{
-    width:100%;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+.about-us-info-left{
+    display:block;
 }
 
-.about-us-info div{
-    margin-right: 20px;
-    padding: 10px;
+.about-us-info-right img{
+    width: 100%;
+    border-radius: 8px;
 }
 
 .services-section{
@@ -209,7 +187,6 @@ h4{
 .services-info{
     width:100%;
     display:flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -218,7 +195,7 @@ h4{
     padding: 30px;
     width:400px;
     border-radius:8px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     cursor: pointer;
     background-color:rgb(255, 255, 255);
 }
@@ -274,7 +251,7 @@ h4{
     width:400px;
     border: 1px solid #d3d3d3;
     border-radius:8px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     cursor: pointer;
     background-color: rgba(255, 255, 255,.95);
     box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.35);
@@ -368,76 +345,20 @@ h4{
         height:auto;
     }
 
-    .benefits-card-section{
-        width:100%;
-        padding-bottom: 0;
-        background-color: rgba(255, 255, 255, .95);
-    }
-
-    .benefits-info-cards{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        position: relative;
-        margin:0;
-    }
-
-    .about-us-container{  
-        display:flex;
-        flex-wrap:nowrap;
-        flex-direction: column;
-        padding:0;
-    }
-
-    .about-us-image img{
-        width:800px;
-        margin:auto;
-    }
-
-    .about-us-info{
-        display: block;
-    }
-
-    .top-contact-info{
-        width:70%;
-    }
-
-    .footer-container{
-        width:70%;
-        display:flex;
-        flex-wrap: nowrap;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .footer-info{
-        width:300px;
-        margin: 0 20px;
-    }
-}
-
-@media screen and (max-width:1024px){
-    .carousel-item{
-        height:auto;
-    }
-
     .top-navbar{
         display:none;
     }
 
     .benefits-container{
-        width:100%;
+        width:70%;
     }
 
     .benefits-info{
         display: flex;
-        flex-wrap: wrap;
     }
 
     .benefits-info div{
         width: 400px;  
-        margin: 10px auto;
-        padding: 10px auto;
     }
 
     .benefits-container h2{
@@ -445,39 +366,28 @@ h4{
     }
 
     .benefits-card-section{
+        background-color: #ffff;
         width:100%;
-        padding-bottom: 0;
     }
 
     .benefits-info-cards{
         display:flex;
-        flex-direction: row;
         flex-wrap: wrap;
         position: relative;
-        margin:0;
+        margin: 0;
     }
 
     .about-us-container{
-        width:100%;
-        display:flex;
-        flex-wrap:wrap;
-        flex-direction:column;
-        padding:0;
+        width:70%;
     }
 
     .about-us-image img{
-        width:600px;
-        margin:0 auto;
+        width:100%;
     }
 
     .about-us-info{
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .about-us-info div{
-        width:400px;
-        margin: 10px auto;
     }
 
     .carousel-info{
@@ -493,12 +403,11 @@ h4{
     }
 
     .services-container{
-        width:100%;
+        width:70%;
     }
 
     .services-info-1{
         width:400px;
-        margin: 10px auto;
     }
 
     .services-info-1:hover{
@@ -507,7 +416,137 @@ h4{
     }
 
     .testimony-container{
+        width:70%;
+    }
+
+    .testimony{
+        width:400px;
+    }
+
+    .testimony-top img:hover{
+        zoom:0;
+    }
+
+    .top-contact-section{
+        background-color: rgba(211, 211, 211, .9);
+    }
+
+    .top-contact-info{
+        display:none;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        box-shadow: none;
+    }
+
+    .top-contact-card{
+        display:flex;
+        flex-wrap:wrap;
+        margin-bottom:20px;
+        background-color: #ffff;
+    }
+
+    .footer-container{
+        display:block;
         width:100%;
+    }
+
+    .footer-info{
+        width: 350px;
+        margin:50px 20px;
+    }
+
+    .copyright-container{
+        width:100%;
+        display: block;
+    }
+
+    .container-info{
+        margin:10px 20px;
+    }
+
+    .footer-website-links li:hover{
+        color:none;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .carousel-item{
+        height:auto;
+    }
+
+    .top-navbar{
+        display:none;
+    }
+
+    .benefits-container{
+        width:90%;
+    }
+
+    .benefits-info{
+        display: flex;
+    }
+
+    .benefits-info div{
+        width: 400px;  
+    }
+
+    .benefits-container h2{
+        text-align: center;
+    }
+
+    .benefits-card-section{
+        background-color: #ffff;
+        width:100%;
+    }
+
+    .benefits-info-cards{
+        display:flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 0;
+    }
+
+    .about-us-container{
+        width:90%;
+    }
+
+    .about-us-image img{
+        width:100%;
+    }
+
+    .about-us-info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .carousel-info{
+        margin-top: -20px;
+    }
+
+    .carousel-caption{
+        position: relative;
+    }
+
+    .quote-btn{
+        display:none;
+    }
+
+    .services-container{
+        width:90%;
+    }
+
+    .services-info-1{
+        width:400px;
+    }
+
+    .services-info-1:hover{
+        box-shadow: none;
+        zoom:0;
+    }
+
+    .testimony-container{
+        width:90%;
     }
 
     .testimony-container{
@@ -516,7 +555,6 @@ h4{
 
     .testimony{
         width:400px;
-        margin:10px auto;
     }
 
     .testimony-top img:hover{
@@ -577,7 +615,6 @@ h4{
 
     .benefits-info{
         display:flex;
-        flex-wrap: wrap;
     }
 
     .about-us-container{
@@ -586,7 +623,6 @@ h4{
 
     .about-us-info{
         display: flex;
-        flex-wrap: wrap;
     }
 
     .about-us-image img{
@@ -639,8 +675,7 @@ h4{
     .top-contact-info{
         width:100%;
         display:none;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .top-contact-card{
@@ -670,7 +705,6 @@ h4{
 
     .benefits-info{
         display:flex;
-        flex-wrap: wrap;
     }
 
     .about-us-container{
@@ -679,7 +713,6 @@ h4{
 
     .about-us-info{
         display: flex;
-        flex-wrap: wrap;
     }
 
     .about-us-image img{
@@ -765,6 +798,10 @@ h4{
         display: block;
     }
 
+    .benefits-info div{
+        width:360px;
+    }
+
     .benefits-card-section{
         background-color: rgba(255, 255, 255, .95);
     }
@@ -783,6 +820,7 @@ h4{
 
     .services-info-1{
         width:390px;
+        margin-left:10px;
     }
 
     .quote-btn{
@@ -791,6 +829,7 @@ h4{
 
     .testimony{
         width:390px;
+        margin-left: 10px;
         box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.35);
     }
 
@@ -983,21 +1022,8 @@ h4{
         width:300px;
     }
 
-    .services-section{
-        background-color: rgba(0, 0, 0, .95);
-    }
-
-    .services-info-1{
-        width:320px;
-    }
-
     .quote-btn{
         display:none;
-    }
-
-    .testimony{
-        width:320px;
-        box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.35);
     }
 
     .testimony:hover{
