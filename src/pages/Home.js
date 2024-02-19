@@ -138,43 +138,45 @@ const Home = () => {
         </div>
         <div className="about-us-section">
             <h2>About Us</h2>
-            <div className="about-us-container">
-                <div className="about-us-info">
-                    <div className="about-us-samis">
-                        <h3>About SAMIS</h3>
-                        <p>
-                            SAMIS SOFTWARES was founded in 2013, we specializes in the development of software
-                            for schools and other organisations. We are the developers of school management 
-                            information system(SAMIS), a system for managing academics and finances in schools
-                            and JFMIS a system used by the judiciary of Kenya.
-                        </p>
+            <div className="container about-us-container">
+                <div className="row about-us-info">
+                    <div className="col-6 about-us-info-left">
+                        <div className="about-us-samis">
+                            <h3>About SAMIS</h3>
+                            <p>
+                                SAMIS SOFTWARES was founded in 2013, we specializes in the development of software
+                                for schools and other organisations. We are the developers of school management 
+                                information system(SAMIS), a system for managing academics and finances in schools
+                                and JFMIS a system used by the judiciary of Kenya.
+                            </p>
+                        </div>
+                        <div className="about-us-vision">
+                            <h3>Our Vision</h3>
+                            <p>
+                                To be the leading software solution company for schools and other organisations.
+                                We understand that the satisfaction of our customers translates to our growth, thats
+                                why we are committed to providing quality systems and excellent customer support.
+                            </p>
+                        </div>
+                        <div className="about-us-mission">
+                            <h3>Our Mission</h3>
+                            <p>
+                            We help schools and other institutions with management by providing reliable, user-friendly,
+                            feature-rich and effective management software
+                            </p>
+                        </div>
                     </div>
-                    <div className="about-us-vision">
-                        <h3>Our Vision</h3>
-                        <p>
-                            To be the leading software solution company for schools and other organisations.
-                            We understand that the satisfaction of our customers translates to our growth, thats
-                            why we are committed to providing quality systems and excellent customer support.
-                        </p>
+                    <div className="col-6 about-us-info-right">
+                        <img src={About1} alt="about1"/>
                     </div>
-                    <div className="about-us-mission">
-                        <h3>Our Mission</h3>
-                        <p>
-                        We help schools and other institutions with management by providing reliable, user-friendly,
-                        feature-rich and effective management software
-                        </p>
-                    </div>
-                </div>
-                <div className="about-us-image">
-                    <img src={About1} alt="about1"/>
                 </div>
             </div>
         </div>
         <div className="services-section">
-            <div className="services-container">
+            <div className="container services-container">
                 <h2>Our Services</h2>
-                <div className="services-info">
-                    <div className="services-info-1">
+                <div className="row services-info">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>School Management</h4></span>
                         </div>
@@ -192,7 +194,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Examination</h4></span>
                         </div>
@@ -210,7 +212,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Academic Reports</h4></span>
                         </div>
@@ -235,7 +237,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Analysis</h4></span>
                         </div>
@@ -248,7 +250,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Mobile App</h4></span>
                         </div>
@@ -264,7 +266,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>SAMIS SMS Module</h4></span>
                         </div>
@@ -280,7 +282,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Accounts Module</h4></span>
                         </div>
@@ -297,7 +299,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>SAMIS Website & Portal</h4></span>
                         </div>
@@ -322,7 +324,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="services-info-1">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>IPSAS Reports</h4></span>
                         </div>
@@ -341,10 +343,10 @@ const Home = () => {
             </div>
         </div>
         <div className="testimony-section">
-            <div className="testimony-container">
+            <div className="container testimony-container">
                 <h2>Testimonials</h2>
-                <div className="testimony-info">
-                    <div className="testimony">
+                <div className="row testimony-info">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony1} alt="H.O.E_Nakuru_Boys_High_School"/>
                         </div>
@@ -359,7 +361,7 @@ const Home = () => {
                             <h6>Head of Examination and Evaluation, Nakuru Boys High School</h6>
                         </div>
                     </div>
-                    <div className="testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony2} alt="clerk_Weru_Secondary"/>
                         </div>
@@ -371,7 +373,7 @@ const Home = () => {
                             <h6>Clerk, Weru Secondary School-Nyandarua</h6>
                         </div>
                     </div>
-                    <div className="testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony4} alt="bursar_St Teresa_Ithanga"/>
                         </div>
@@ -385,7 +387,7 @@ const Home = () => {
                             <h6>Bursar, St Teresa Ithanga Secondary School - Murang'a</h6>
                         </div>
                     </div>
-                    <div className="testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony5} alt="bursar_Kwale"/>
                         </div>
@@ -399,7 +401,7 @@ const Home = () => {
                             <h6>Bursar, Kwale County</h6>
                         </div>
                     </div>
-                    <div className="testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony3} alt="bursar_Kilimo_High_School"/>
                         </div>
@@ -412,7 +414,7 @@ const Home = () => {
                             <h6>Bursar, Kilimo High School - Nakuru County</h6>
                         </div>
                     </div>
-                    <div className="testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony8} alt="bursar_Waguthiru_Secondary"/>
                         </div>
@@ -426,7 +428,7 @@ const Home = () => {
                             <h6>Bursar, Waguthiru Secondary School - Laikipia County</h6>
                         </div>
                     </div>
-                    <div className="testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony6} alt="bursar_St Agnes_Shibuye"/>
                         </div>
@@ -440,7 +442,7 @@ const Home = () => {
                             <h6>Bursar, St Agnes Shibuye</h6>
                         </div>
                     </div>
-                    <div className="testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony7} alt="bursar_St Teresa_Khanga"/>
                         </div>
@@ -453,7 +455,7 @@ const Home = () => {
                             <h6>Bursar, St Teresa Khanga Secondary School - Murang'a</h6>
                         </div>
                     </div>
-                    <div className="last-testimony">
+                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 last-testimony">
                         <div className="testimony-top-1">
                             <span><i className="fa fa-cloud-download fa fa-lg" aria-hidden="true"></i></span>
                             <h4>Installation Service</h4>
