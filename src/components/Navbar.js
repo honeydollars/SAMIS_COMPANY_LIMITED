@@ -49,43 +49,41 @@ const Navbar = () => {
                     </button>
                     <div className="offcanvas offcanvas-end" tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header">
-                        <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-                        <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div className="offcanvas-body">
-                        <ul className="navbar-nav justify-content-end flex-grow-1">
-                            <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Home</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#!" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
-                            <ul className="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="accountDropdown">
-                                <li><a className="dropdown-item" href="/services">School Management</a></li>
-                                <li><a className="dropdown-item" href="/services">Finance Module</a></li>
-                                <li><a className="dropdown-item" href="/services">Examination</a></li>
-                                <li><a className="dropdown-item" href="/services">Academic Reports</a></li>
-                                <li>
-                                <hr className="dropdown-divider"/>
+                            <ul className="navbar-nav justify-content-end flex-grow-1">
+                                <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="/">Home</a>
                                 </li>
-                                <li><a className="dropdown-item" href="#!">SAMIS Website & Portal</a></li>
+                                <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#!" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                                <ul className="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="accountDropdown">
+                                    <li><a className="dropdown-item" href="#services">School Management</a></li>
+                                    <li><a className="dropdown-item" href="#services">Examination</a></li>
+                                    <li><a className="dropdown-item" href="#services">Academic Reports</a></li>
+                                    <li><a className="dropdown-item" href="#services">Finance Module</a></li>
+                                    <li><hr className="dropdown-divider"/></li>
+                                    <li><a className="dropdown-item" href="#!">SAMIS Website & Portal</a></li>
+                                </ul>
+                                </li>
+                                <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle" href="#!" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mobile App</a>
+                                <ul className="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
+                                    <li><a className="dropdown-item" href="#services">SAMIS Mobile App</a></li>
+                                    <li><a className="dropdown-item" href="#services">SAMIS SMS Module</a></li>
+                                    <li><a className="dropdown-item" href="#services">IPSAS Reports</a></li>
+                                    <li><a className="dropdown-item" href="#services">Analysis</a></li>
+                                </ul>
+                                </li>
+                                <li className="nav-item">
+                                <a className="nav-link" href="/about">About</a>
+                                </li>
+                                <li className="nav-item">
+                                <a className="nav-link" href="/contact">Contact</a>
+                                </li>
                             </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#!" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mobile App</a>
-                            <ul className="dropdown-menu border-0 shadow bsb-zoomIn" aria-labelledby="servicesDropdown">
-                                <li><a className="dropdown-item" href="/services">SAMIS Mobile App</a></li>
-                                <li><a className="dropdown-item" href="/services">SAMIS SMS Module</a></li>
-                                <li><a className="dropdown-item" href="/services">IPSAS Reports</a></li>
-                                <li><a className="dropdown-item" href="/services">Analysis</a></li>
-                            </ul>
-                            </li>
-                            <li className="nav-item">
-                            <a className="nav-link" href="/about">About</a>
-                            </li>
-                            <li className="nav-item">
-                            <a className="nav-link" href="/contact">Contact</a>
-                            </li>
-                        </ul>
                         </div>
                     </div>
                     <button className="quote-btn">Get Quote</button>

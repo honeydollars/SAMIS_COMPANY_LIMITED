@@ -6,7 +6,7 @@
 }
 
 .carousel-section{
-    background-color: rgba(211, 211, 211, .75);
+    background-color: rgba(211, 211, 211, .9);
 }
 
 .carousel-item{
@@ -44,7 +44,7 @@
 }
 
 .benefits-section{
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .95);
     padding-bottom: 100px;
 }
 
@@ -168,7 +168,7 @@ h4{
 }
 
 .services-section{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     padding: 100px 0;
 }
 

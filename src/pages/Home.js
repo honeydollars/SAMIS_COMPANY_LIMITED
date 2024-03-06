@@ -12,8 +12,17 @@ import Testimony5 from '../assets/attachments/5.png';
 import Testimony6 from '../assets/attachments/6.png';
 import Testimony7 from '../assets/attachments/7.png';
 import Testimony8 from '../assets/attachments/8.png';   
+import { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Home = () => {
+    useEffect(()=>{
+        Aos.init({
+            duration: 2000
+        })
+    },[]);
+
   return (    
     <div className="homepage-container">
         <div className="carousel-section">
@@ -64,7 +73,7 @@ const Home = () => {
             </div>
         </div>
         <div className="benefits-section">
-            <div className="benefits-container">
+            <div data-aos='fade-up-right' className="benefits-container">
                 <h2>Our Merits</h2>
                 <div className="benefits-info">
                     <div>
@@ -94,7 +103,7 @@ const Home = () => {
             </div>
         </div>
         <div className="benefits-card-section">
-            <div className="benefits-info-cards">
+            <div data-aos='fade-up-left' className="benefits-info-cards">
                 <div className="card">
                     <div className="header">
                         <span><i className="fa fa-lock fa fa-lg"></i></span>
@@ -138,7 +147,7 @@ const Home = () => {
         </div>
         <div className="about-us-section">
             <h2>About Us</h2>
-            <div className="container about-us-container">
+            <div data-aos='fade-up-right' className="container about-us-container">
                 <div className="row about-us-info">
                     <div className="col-6 about-us-info-left">
                         <div className="about-us-samis">
@@ -174,9 +183,9 @@ const Home = () => {
         </div>
         <div className="services-section">
             <div className="container services-container">
-                <h2>Our Services</h2>
-                <div className="row services-info">
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                <h2 id='services'>Our Services</h2>
+                <div data-aos='fade-left' className="row services-info">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>School Management</h4></span>
                         </div>
@@ -194,7 +203,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Examination</h4></span>
                         </div>
@@ -212,7 +221,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Academic Reports</h4></span>
                         </div>
@@ -237,7 +246,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Analysis</h4></span>
                         </div>
@@ -250,7 +259,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Mobile App</h4></span>
                         </div>
@@ -266,7 +275,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>SAMIS SMS Module</h4></span>
                         </div>
@@ -282,9 +291,9 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
-                            <span><h4>Accounts Module</h4></span>
+                            <span><h4>Finance Module</h4></span>
                         </div>
                         <div><hr/></div>
                         <div className="services-main-info">
@@ -299,7 +308,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>SAMIS Website & Portal</h4></span>
                         </div>
@@ -324,7 +333,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>IPSAS Reports</h4></span>
                         </div>
@@ -345,8 +354,8 @@ const Home = () => {
         <div className="testimony-section">
             <div className="container testimony-container">
                 <h2>Testimonials</h2>
-                <div className="row testimony-info">
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                <div data-aos='fade-up-left' className="row testimony-info">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony1} alt="H.O.E_Nakuru_Boys_High_School"/>
                         </div>
@@ -361,7 +370,7 @@ const Home = () => {
                             <h6>Head of Examination and Evaluation, Nakuru Boys High School</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony2} alt="clerk_Weru_Secondary"/>
                         </div>
@@ -373,7 +382,7 @@ const Home = () => {
                             <h6>Clerk, Weru Secondary School-Nyandarua</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony4} alt="bursar_St Teresa_Ithanga"/>
                         </div>
@@ -387,7 +396,7 @@ const Home = () => {
                             <h6>Bursar, St Teresa Ithanga Secondary School - Murang'a</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony5} alt="bursar_Kwale"/>
                         </div>
@@ -401,7 +410,7 @@ const Home = () => {
                             <h6>Bursar, Kwale County</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony3} alt="bursar_Kilimo_High_School"/>
                         </div>
@@ -414,7 +423,7 @@ const Home = () => {
                             <h6>Bursar, Kilimo High School - Nakuru County</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony8} alt="bursar_Waguthiru_Secondary"/>
                         </div>
@@ -428,7 +437,7 @@ const Home = () => {
                             <h6>Bursar, Waguthiru Secondary School - Laikipia County</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony6} alt="bursar_St Agnes_Shibuye"/>
                         </div>
@@ -442,7 +451,7 @@ const Home = () => {
                             <h6>Bursar, St Agnes Shibuye</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony7} alt="bursar_St Teresa_Khanga"/>
                         </div>
@@ -455,7 +464,7 @@ const Home = () => {
                             <h6>Bursar, St Teresa Khanga Secondary School - Murang'a</h6>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-12 col-md-6 col-lg-4 last-testimony">
+                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 last-testimony">
                         <div className="testimony-top-1">
                             <span><i className="fa fa-cloud-download fa fa-lg" aria-hidden="true"></i></span>
                             <h4>Installation Service</h4>
@@ -480,7 +489,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className="top-contact-section">
+        <div data-aos='fade-right' className="top-contact-section">
             <div className="top-contact-container">
                 <div className="top-contact-info">
                     <div className="top-contact-card">
