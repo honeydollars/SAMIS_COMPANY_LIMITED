@@ -72,12 +72,12 @@ h6{
  .about-info-container{
     width:70%;
     margin:auto;
-    display:flex;
-    align-items: center;
  }
 
- .about-info-container div{
-    padding: 20px;
+ .about-info{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
  }
 
  .about-info-container h3{
@@ -95,10 +95,6 @@ h6{
     list-style-type: circle;
     content:'$';
     padding: 10px 0;
-}
-
-.picture img{
-    width: 300px;
 }
 
 .values-section{
@@ -188,41 +184,49 @@ h6{
     color:#ff4500;
 }
 
-@media screen and (max-width:1200px) {
-    .about-info-container{
-        width: 70%;
-        display:block;
-    }
+.our-team-section{
+    width: 100%;
+    color: #ffff;
+    background-color:rgba(0,0,0,.9);
+    padding: 100px 0;
+}
 
+.our-team-container{
+    width: 70%;
+    margin: auto;
+}
+
+.our-team-container h2{
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.our-team{
+    margin-bottom: 50px;
+}
+
+.our-team img{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+}
+
+@media screen and (max-width: 1024px) {
     .about-info-container img{
-        width:100%;
+        display: flex;
+        width: 400px;
     }
 
-    .values-container{
-        width:70%;
-        padding-bottom:0;
+    .our-team-container{
+        width: 70%;
     }
 
-    .values-info{
-        margin: 20px;
-        display:flex;
+    our-team{
+        width: 350px;
     }
 
     .value-info{
-        width:300px;
-        margin-bottom:20px;
-    }
-
-    .values-container h3{
-        text-align: center;
-    }
-
-    .our-story-container{
-        width:70%;
-    }
-
-    .our-story:hover{
-        color:#000000;
+        width: 350px;
     }
 }
 
@@ -308,6 +312,14 @@ h6{
 
     .values-container h3{
         text-align: center;
+    }
+
+    .our-team-container{
+        width: 90%;
+    }
+
+    our-team{
+        width: 350px;
     }
 
     .our-story-container{

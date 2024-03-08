@@ -35,7 +35,7 @@ const Home = () => {
                     <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={Photo1} className="d-block w-100" alt="carousel1"/>
-                        <div className="carousel-info">
+                        <div data-aos='fade-left' className="carousel-info">
                             <div className="carousel-caption d-none d-md-block">
                             <h2>We Develop Software to aid schools in managing their academics
                                 and financial dte easily and more efficiently
@@ -73,10 +73,10 @@ const Home = () => {
             </div>
         </div>
         <div className="benefits-section">
-            <div data-aos='fade-up-right' className="benefits-container">
+            <div className="benefits-container">
                 <h2>Our Merits</h2>
                 <div className="benefits-info">
-                    <div>
+                    <div data-aos='fade-up-right'>
                         <h3>We Provide Advanced Analytics and User Friendly Systems</h3>
                         <p>
                             Our Development and Technical Teams have alot of experience when dealing with school data. 
@@ -84,7 +84,7 @@ const Home = () => {
                         </p>
                         <p> We have the best systems currently.</p>
                     </div>
-                    <div>
+                    <div data-aos='fade-up-left'>
                         <h3>What Will You Benefit From Our Systems</h3>
                         <ul>
                             <li>A customer care service to aid you instantly in case of hiches</li>
@@ -103,8 +103,8 @@ const Home = () => {
             </div>
         </div>
         <div className="benefits-card-section">
-            <div data-aos='fade-up-left' className="benefits-info-cards">
-                <div className="card">
+            <div className="benefits-info-cards">
+                <div data-aos='zoom-in-up' className="card">
                     <div className="header">
                         <span><i className="fa fa-lock fa fa-lg"></i></span>
                         <span><p>01</p></span>
@@ -117,7 +117,7 @@ const Home = () => {
                     </li>
                     </div>
                 </div>
-                <div className="card">
+                <div data-aos='zoom-in-up' className="card">
                     <div className="header">
                         <span><i className="fa fa-code fa fa-lg"></i></span>
                         <span><p>02</p></span>
@@ -130,7 +130,7 @@ const Home = () => {
                     </li>
                     </div>
                 </div>
-                <div className="card">
+                <div data-aos='zoom-in-up' className="card">
                     <div className="header">
                         <span><i className="fa fa-rocket fa fa-lg"></i></span>
                         <span><p>03</p></span>
@@ -147,9 +147,9 @@ const Home = () => {
         </div>
         <div className="about-us-section">
             <h2>About Us</h2>
-            <div data-aos='fade-up-right' className="container about-us-container">
+            <div className="container about-us-container">
                 <div className="row about-us-info">
-                    <div className="col-6 about-us-info-left">
+                    <div data-aos='fade-up-right' className="col-6 about-us-info-left">
                         <div className="about-us-samis">
                             <h3>About SAMIS</h3>
                             <p>
@@ -175,7 +175,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="col-6 about-us-info-right">
+                    <div data-aos='fade-up-left' className="col-6 about-us-info-right">
                         <img src={About1} alt="about1"/>
                     </div>
                 </div>
@@ -184,8 +184,8 @@ const Home = () => {
         <div className="services-section">
             <div className="container services-container">
                 <h2 id='services'>Our Services</h2>
-                <div data-aos='fade-left' className="row services-info">
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                <div className="row services-info">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>School Management</h4></span>
                         </div>
@@ -203,7 +203,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Examination</h4></span>
                         </div>
@@ -221,7 +221,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Academic Reports</h4></span>
                         </div>
@@ -246,7 +246,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Analysis</h4></span>
                         </div>
@@ -259,7 +259,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Mobile App</h4></span>
                         </div>
@@ -275,7 +275,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>SAMIS SMS Module</h4></span>
                         </div>
@@ -291,7 +291,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>Finance Module</h4></span>
                         </div>
@@ -308,7 +308,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>SAMIS Website & Portal</h4></span>
                         </div>
@@ -333,7 +333,7 @@ const Home = () => {
                             </ul>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 services-info-1">
                         <div className="services-top-info">
                             <span><h4>IPSAS Reports</h4></span>
                         </div>
@@ -354,8 +354,8 @@ const Home = () => {
         <div className="testimony-section">
             <div className="container testimony-container">
                 <h2>Testimonials</h2>
-                <div data-aos='fade-up-left' className="row testimony-info">
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                <div className="row testimony-info">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony1} alt="H.O.E_Nakuru_Boys_High_School"/>
                         </div>
@@ -370,7 +370,7 @@ const Home = () => {
                             <h6>Head of Examination and Evaluation, Nakuru Boys High School</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony2} alt="clerk_Weru_Secondary"/>
                         </div>
@@ -382,7 +382,7 @@ const Home = () => {
                             <h6>Clerk, Weru Secondary School-Nyandarua</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony4} alt="bursar_St Teresa_Ithanga"/>
                         </div>
@@ -396,7 +396,7 @@ const Home = () => {
                             <h6>Bursar, St Teresa Ithanga Secondary School - Murang'a</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony5} alt="bursar_Kwale"/>
                         </div>
@@ -410,7 +410,7 @@ const Home = () => {
                             <h6>Bursar, Kwale County</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony3} alt="bursar_Kilimo_High_School"/>
                         </div>
@@ -423,7 +423,7 @@ const Home = () => {
                             <h6>Bursar, Kilimo High School - Nakuru County</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony8} alt="bursar_Waguthiru_Secondary"/>
                         </div>
@@ -437,7 +437,7 @@ const Home = () => {
                             <h6>Bursar, Waguthiru Secondary School - Laikipia County</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony6} alt="bursar_St Agnes_Shibuye"/>
                         </div>
@@ -451,7 +451,7 @@ const Home = () => {
                             <h6>Bursar, St Agnes Shibuye</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 testimony">
                         <div className="testimony-top">
                             <img src={Testimony7} alt="bursar_St Teresa_Khanga"/>
                         </div>
@@ -464,7 +464,7 @@ const Home = () => {
                             <h6>Bursar, St Teresa Khanga Secondary School - Murang'a</h6>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="col-12 col-sm-12 col-md-6 col-lg-4 last-testimony">
+                    <div data-aos='zoom-in-up' className="col-12 col-sm-12 col-md-6 col-lg-4 last-testimony">
                         <div className="testimony-top-1">
                             <span><i className="fa fa-cloud-download fa fa-lg" aria-hidden="true"></i></span>
                             <h4>Installation Service</h4>
@@ -489,7 +489,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div data-aos='fade-right' className="top-contact-section">
+        <div data-aos='zoom-in' className="top-contact-section">
             <div className="top-contact-container">
                 <div className="top-contact-info">
                     <div className="top-contact-card">
