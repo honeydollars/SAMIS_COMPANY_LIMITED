@@ -1,14 +1,23 @@
 import React from 'react';
+import { useEffect } from 'react';
 import '../styles/Contact.css';
 import Button from '@mui/material/Button';
+import Aos from 'aos';
+import 'aos/dist/aos';
 
 const Contact = () => {
+
+useEffect(()=>{
+  Aos.init({
+    duration: 2000
+  });
+}, []);
   return (
     <>
       <div className='contact-section'>
           <div className='contact-container'>
-          <h1>Contact Us</h1>
-          <div className='breadcrumb-div'>
+          <h1 data-aos='zoom-in'>Contact Us</h1>
+          <div data-aos='zoom-in' className='breadcrumb-div'>
           <nav aria-label="breadcrumb">
               <ol className="breadcrumb">
               <span><i className='fa fa-home'></i></span>
@@ -20,7 +29,7 @@ const Contact = () => {
           </div>
           <div className='contact-info-section'>
               <div className='contact-info-container'>
-                  <div className='contact-info'>
+                  <div data-aos='fade-up-right' className='contact-info'>
                     <h2>Our Contacts</h2>
                     <p>Seamlessly actualize client-based users after out-of-the-box value data through frictionless expertise </p>
                     <div className='contact-content'>
@@ -45,7 +54,7 @@ const Contact = () => {
                         </div>
                     </div>
                   </div>
-                  <div className='contact-form'>
+                  <div data-aos='fade-up-left' className='contact-form'>
                     <div className='form-info'>
                       <h2>Send us a message and we will respond</h2>
                       <p>For more urgent issues concerning the system, contact us using the methods listed below</p>
@@ -68,7 +77,7 @@ const Contact = () => {
       </div>
       <div className="top-contact-section">
             <div className="top-contact-container">
-                <div className="top-contact-info">
+                <div data-aos='zoom-in-up' className="top-contact-info">
                     <div className="top-contact-card">
                         <div className="top-contact-header">
                             <span><i className="fa fa-lock fa fa-lg"></i></span>
